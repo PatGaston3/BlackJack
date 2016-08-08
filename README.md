@@ -23,13 +23,13 @@ The game is ran from the play.java file
 The program consists of 8 classes
 
 <ul>
-  <p><strong>&#x00B7Rank</strong> class consisting of ENUM's to make up the 'rank' of each card in the deck  </br>
-     <strong>&#x00B7Suit</strong> class consisting of ENUM's to make up the 'suit' of each card in the deck    </br>
-     <strong>&#x00B7Card</strong> class used to create card objects implementing the 'rank' and 'suit' classes     </br>
-     <strong>&#x00B7Deck</strong>  class used to create an array list of cards (52 to be exact) used as a 'deck' to draw from in the game     </br>
-     <strong>&#x00B7Hand</strong> class used to create 'hand' objects that hold card objects within them to represent a 'hand' for the player as well as the dealer     </br>
-     <strong>&#x00B7Player</strong> class where information is stored for both the computer (dealer) and the user. Information includes name (for user), hand, and hand value. </br>
-     <strong>&#x00B7GameLogic</strong>  class where all the game logic is stored. How to win, when to quit the game, how to manipulate the deck to remove cards after they are dealt, storing hand values, etc.  </br>
-     <strong>&#x00B7Play</strong>  Main class where the program is ran. Only calls the 'GameLogic' class   </br>
+  <p><strong>&#x00B7 Rank</strong> class consisting of ENUM's to make up the 'rank' of each card in the deck  </br>
+     <strong>&#x00B7 Suit</strong> class consisting of ENUM's to make up the 'suit' of each card in the deck    </br>
+     <strong>&#x00B7 Card</strong> class used to create card objects implementing the 'rank' and 'suit' classes     </br>
+     <strong>&#x00B7 Deck</strong>  class used to create an array list of cards (52 to be exact) used as a 'deck' to draw from in the game     </br>
+     <strong>&#x00B7 Hand</strong> class used to create 'hand' objects that hold card objects within them to represent a 'hand' for the player as well as the dealer     </br>
+     <strong>&#x00B7 Player</strong> class where information is stored for both the computer (dealer) and the user. Information includes name (for user), hand, and hand value. </br>
+     <strong>&#x00B7 GameLogic</strong>  class where all the game logic is stored. How to win, when to quit the game, how to manipulate the deck to remove cards after they are dealt, storing hand values, etc.  </br>
+     <strong>&#x00B7 Play</strong>  Main class where the program is ran. Only calls the 'GameLogic' class   </br>
 
 ######Patrick Gaston
