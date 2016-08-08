@@ -128,7 +128,6 @@ public class GameLogic {
 					computer.hand.addCard(deck.dealCard());
 					System.out.println("Dealer picked up: " + deck.dealCard());
 					deck.removeCard(deck.dealCard());
-					System.out.println("Your hand value: " + player.hand.getValue());
 					if( computer.hand.getValue() > 21 ) {
 						System.out.println("Bust! The dealer is over 21! You Win");
 						System.exit(0);
@@ -150,7 +149,9 @@ public class GameLogic {
 					}
 					System.out.println("Dealer's hand value: " + computer.hand.getValue());
 					System.out.println("");
+					System.out.println("Your hand: ");
 					player.hand.showHand();
+					System.out.println("Your hand value: " + player.hand.getValue());
 				}
 				else {
 					System.out.println("\nYou win!");
