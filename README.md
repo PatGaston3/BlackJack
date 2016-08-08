@@ -13,6 +13,7 @@ The game is ran from the play.java file
    &#x00B7 if either the dealer or the player are dealt a 21 from the first 2 cards, the game will <strong>end</strong></br>
    &#x00B7 <strong> If not... </strong></br>
    &#x00B7 the game will prompt you to 'hit' or 'stay' </br>
+   &#x00B7 the user will not 'hit' if they are at or above 17</br>
    &#x00B7 the game will continue until either the dealer or player hit 21 and win <em>or</em> either goes over 21 and they 'bust'</br>
    &#x00B7  The game will automatically stop execution once one of the above conditions are met.
     </p>
